@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:background="@drawable/radius_rect">
+
+	<ImageView
+		android:layout_height="40dp"
+		android:layout_width="40dp"
+		android:layout_margin="15dp"
+		android:id="@+id/pluginItemIcon"/>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:orientation="vertical"
+		android:layout_centerVertical="true"
+		android:layout_toRightOf="@id/pluginItemIcon">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="Plugin Name"
+			android:textSize="15sp"
+			android:textColor="#FFFFFF"
+			android:id="@+id/pluginItemName"
+			android:layout_marginBottom="5dp"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="Plugin Size"
+			android:textSize="10sp"
+			android:textColor="#FFFFFF"
+			android:id="@+id/pluginItemSize"/>
+
+	</LinearLayout>
+
+	<Button
+		android:layout_height="35dp"
+		android:layout_width="70dp"
+		android:text="下载"
+		android:layout_centerVertical="true"
+		android:layout_alignParentRight="true"
+		android:background="@drawable/radius_rect_selector"
+		android:id="@+id/pluginItemBtn"
+		android:layout_marginRight="5dp"/>
+
+</RelativeLayout>
+

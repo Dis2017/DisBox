@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+		<!-- Customize your theme here. -->
+		<item name="android:windowBackground">@android:color/transparent</item>
+		<item name="android:windowIsTranslucent">true</item>
+		<item name="colorPrimary">#44000000</item>
+		<item name="colorAccent">#AAFFFFFF</item>
+	</style>
+	
+	<style name="CollapsingToolbarLayoutTitleTextAppearance">
+		<item name="android:textSize">30sp</item>
+		<item name="android:textColor">#FFFFFF</item>
+	</style>
+</resources>

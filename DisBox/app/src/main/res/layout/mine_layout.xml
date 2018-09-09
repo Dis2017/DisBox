@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:padding="5dp">
+
+	<RelativeLayout
+		android:layout_height="125dp"
+		android:layout_width="match_parent"
+		android:layout_marginTop="5dp"
+		android:background="@drawable/radius_rect"
+		android:id="@+id/mineBusinessCard">
+
+		<de.hdodenhof.circleimageview.CircleImageView
+			android:layout_height="65dp"
+			android:layout_width="65dp"
+			android:src="@drawable/test_head"
+			android:layout_centerVertical="true"
+			android:layout_margin="20dp"
+			android:id="@+id/mineHeadPortrait"/>
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:orientation="vertical"
+			android:layout_toRightOf="@id/mineHeadPortrait"
+			android:layout_centerVertical="true">
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:id="@+id/mineName"
+				android:textSize="25sp"
+				android:textStyle="bold"
+				android:textColor="#FFFFFF"
+				android:layout_marginBottom="5dp"/>
+
+			<LinearLayout
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:orientation="horizontal">
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:layout_width="wrap_content"
+					android:text="账号:"
+					android:textSize="17sp"
+					android:textColor="#FFFFFF"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:layout_width="wrap_content"
+					android:text="10001"
+					android:textSize="17sp"
+					android:textColor="#FFFFFF"/>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+	</RelativeLayout>
+
+	<ListView
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		android:layout_marginTop="13dp"
+		android:id="@+id/mineRecyclerView"
+		android:divider="#00000000"
+		android:dividerHeight="3dp"/>
+
+</LinearLayout>
+
