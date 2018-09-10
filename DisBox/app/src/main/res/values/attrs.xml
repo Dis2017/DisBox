@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<declare-styleable name="SwitchButtom">
+		<attr name="value" format="boolean"/>
+		<attr name="divider_width" format="integer"/>
+		<attr name="on_divider_color" format="color"/>
+		<attr name="off_divider_color" format="color"/>
+		<attr name="off_background_color" format="color"/>
+		<attr name="on_background_color" format="color"/>
+		<attr name="off_slider_color" format="color"/>
+		<attr name="on_slider_color" format="color"/>
+		<attr name="animatable" format="boolean"/>
+		<attr name="duration" format="integer"/>
+		<attr name="speed" format="integer"/>
+	</declare-styleable>
+</resources>

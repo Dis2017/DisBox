@@ -3,8 +3,6 @@
 	xmlns:android="http://schemas.android.com/apk/res/android"
 	xmlns:app="http://schemas.android.com/apk/res-auto"
 	android:orientation="vertical"
-	android:fitsSystemWindows="true"
-	android:clipToPadding="true"
 	android:id="@+id/disBackground"
 	android:layout_width="fill_parent"
 	android:layout_height="fill_parent"
@@ -21,6 +19,7 @@
 
 		<android.support.design.widget.AppBarLayout
 			android:id="@+id/personalAppBar"
+			android:fitsSystemWindows="true"
 			android:layout_width="match_parent"
 			android:layout_height="200dp">
 
@@ -36,6 +35,7 @@
 					android:layout_width="match_parent"
 					android:layout_height="match_parent"
 					android:scaleType="centerCrop"
+					app:layout_collapseParallaxMultiplier="0.5"
 					app:layout_collapseMode="parallax"/>
 
 				<View
@@ -79,10 +79,11 @@
 
 			<TextView
 				android:textColor="#FFFFFF"
-				android:textSize="30sp"
+				android:textSize="20sp"
+				android:gravity="center"
 				android:layout_width="match_parent"
 				android:layout_height="wrap_content"
-				android:text="\n\n没想好这里怎么做，有想法的QQ我\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\nM\nN\nO\nP\nQ\nR\nS\nT\nU\nV\nW\nX\nY\nZ\nW\nX\nY\nZ"/>
+				android:text="\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n没想好这里怎么做，有想法的QQ我\n\n\n\n\n\n\n\n\n\n\n\n\nW\nX\nY\nZ"/>
 
 		</android.support.v4.widget.NestedScrollView>
 

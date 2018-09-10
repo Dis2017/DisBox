@@ -52,7 +52,8 @@
 		android:textColor="#FFFFFF"
 		android:textStyle="bold|italic"
 		android:gravity="center"
-		android:layout_gravity="start"/>
+		android:layout_gravity="start"
+		android:elevation="10dp"/>
 
 </android.support.v4.widget.DrawerLayout>
 

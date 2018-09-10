@@ -20,7 +20,9 @@
 		android:id="@+id/setupSwitch"
 		android:layout_centerVertical="true"
 		android:layout_alignParentRight="true"
-		android:layout_margin="10dp"/>
+		android:layout_margin="10dp"
+		app:off_divider_color="#CCCCCC"
+		app:duration="250"/>
 
 </RelativeLayout>
 

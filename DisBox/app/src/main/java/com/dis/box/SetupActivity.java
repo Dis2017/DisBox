@@ -105,10 +105,9 @@ public class SetupActivity extends BasePageActivity
 										}
 
 										@Override
-										public void clickRightButton(MDEditDialog dialog, View view)
+										public void clickRightButton(final MDEditDialog problemDialog, View view)
 										{
-											dialog.dismiss();
-											LocalUtils.setPinLockEncryptedProblem(SetupActivity.this, dialog.getEditTextContent());
+											problemDialog.dismiss();
 											new MDEditDialog.Builder(SetupActivity.this)
 												.setTitleText("设置密保答案")
 												.setInputTpye(InputType.TYPE_CLASS_TEXT)
@@ -127,6 +126,7 @@ public class SetupActivity extends BasePageActivity
 													public void clickRightButton(MDEditDialog dialog, View view)
 													{
 														Toast.makeText(SetupActivity.this, "密保设置成功", Toast.LENGTH_SHORT).show();
+														LocalUtils.setPinLockEncryptedProblem(SetupActivity.this, problemDialog.getEditTextContent());
 														LocalUtils.setPinLockEncryptedAnswer(SetupActivity.this, dialog.getEditTextContent());
 														dialog.dismiss();
 													}
@@ -225,14 +225,8 @@ public class SetupActivity extends BasePageActivity
 				SwitchButton switchButton = (SwitchButton)view.findViewById(R.id.setupSwitch);
 				tv = (TextView)view.findViewById(R.id.setupTitle);
 
-				switchButton.setValue(item.isValue(), true);
-				switchButton.setOnValueChangeListener(new SwitchButton.OnValueChangeListener()
-					{
-						public void onChange(boolean value)
-						{
-							item.getValueChanged().onChange(value);
-						}
-					});
+				switchButton.setValue(item.isValue());
+				switchButton.setOnValueChangeListener(item.getValueChanged());
 			}
 
 			tv.setText(item.getTitle());

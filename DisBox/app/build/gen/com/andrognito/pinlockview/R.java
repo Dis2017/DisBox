@@ -232,6 +232,14 @@ theme attribute (in the form
 containing a value of this type.
          */
         public static final int alpha=0x7f010129;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int animatable=0x7f010177;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -787,6 +795,14 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
         public static final int dividerVertical=0x7f0100ed;
+        /** <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int divider_width=0x7f010170;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -843,6 +859,14 @@ theme attribute (in the form
 containing a value of this type.
          */
         public static final int dropdownListPreferredItemHeight=0x7f0100e4;
+        /** <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int duration=0x7f010178;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -1506,6 +1530,60 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 </table>
          */
         public static final int navigationMode=0x7f01008f;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int off_background_color=0x7f010173;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int off_divider_color=0x7f010172;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int off_slider_color=0x7f010175;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int on_background_color=0x7f010174;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int on_divider_color=0x7f010171;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int on_slider_color=0x7f010176;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -2039,6 +2117,14 @@ theme attribute (in the form
 containing a value of this type.
          */
         public static final int spanCount=0x7f010078;
+        /** <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int speed=0x7f010179;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -2595,6 +2681,14 @@ theme attribute (in the form
 containing a value of this type.
          */
         public static final int useCompatPadding=0x7f010028;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int value=0x7f01016f;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -3409,42 +3503,41 @@ containing a value of this type.
         public static final int layout_delete_item=0x7f04002d;
         public static final int layout_number_item=0x7f04002e;
         public static final int local_plugin_layout=0x7f04002f;
-        public static final int main=0x7f040030;
-        public static final int main_layout=0x7f040031;
-        public static final int mine_item_layout=0x7f040032;
-        public static final int mine_layout=0x7f040033;
-        public static final int notification_action=0x7f040034;
-        public static final int notification_action_tombstone=0x7f040035;
-        public static final int notification_media_action=0x7f040036;
-        public static final int notification_media_cancel_action=0x7f040037;
-        public static final int notification_template_big_media=0x7f040038;
-        public static final int notification_template_big_media_custom=0x7f040039;
-        public static final int notification_template_big_media_narrow=0x7f04003a;
-        public static final int notification_template_big_media_narrow_custom=0x7f04003b;
-        public static final int notification_template_custom_big=0x7f04003c;
-        public static final int notification_template_icon_group=0x7f04003d;
-        public static final int notification_template_lines_media=0x7f04003e;
-        public static final int notification_template_media=0x7f04003f;
-        public static final int notification_template_media_custom=0x7f040040;
-        public static final int notification_template_part_chronometer=0x7f040041;
-        public static final int notification_template_part_time=0x7f040042;
-        public static final int personal_layout=0x7f040043;
-        public static final int pin_layout=0x7f040044;
-        public static final int plugin_item_layout=0x7f040045;
-        public static final int plugins_layout=0x7f040046;
-        public static final int select_dialog_item_material=0x7f040047;
-        public static final int select_dialog_multichoice_material=0x7f040048;
-        public static final int select_dialog_singlechoice_material=0x7f040049;
-        public static final int setup_layout=0x7f04004a;
-        public static final int setup_switch_layout=0x7f04004b;
-        public static final int setup_text_layout=0x7f04004c;
-        public static final int start_layout=0x7f04004d;
-        public static final int support_simple_spinner_dropdown_item=0x7f04004e;
-        public static final int widget_bottom_dialog=0x7f04004f;
-        public static final int widget_dialog_normal=0x7f040050;
-        public static final int widget_edit_dialog=0x7f040051;
-        public static final int widget_md_dialog=0x7f040052;
-        public static final int widget_md_mid_dialog=0x7f040053;
+        public static final int main_layout=0x7f040030;
+        public static final int mine_item_layout=0x7f040031;
+        public static final int mine_layout=0x7f040032;
+        public static final int notification_action=0x7f040033;
+        public static final int notification_action_tombstone=0x7f040034;
+        public static final int notification_media_action=0x7f040035;
+        public static final int notification_media_cancel_action=0x7f040036;
+        public static final int notification_template_big_media=0x7f040037;
+        public static final int notification_template_big_media_custom=0x7f040038;
+        public static final int notification_template_big_media_narrow=0x7f040039;
+        public static final int notification_template_big_media_narrow_custom=0x7f04003a;
+        public static final int notification_template_custom_big=0x7f04003b;
+        public static final int notification_template_icon_group=0x7f04003c;
+        public static final int notification_template_lines_media=0x7f04003d;
+        public static final int notification_template_media=0x7f04003e;
+        public static final int notification_template_media_custom=0x7f04003f;
+        public static final int notification_template_part_chronometer=0x7f040040;
+        public static final int notification_template_part_time=0x7f040041;
+        public static final int personal_layout=0x7f040042;
+        public static final int pin_layout=0x7f040043;
+        public static final int plugin_item_layout=0x7f040044;
+        public static final int plugins_layout=0x7f040045;
+        public static final int select_dialog_item_material=0x7f040046;
+        public static final int select_dialog_multichoice_material=0x7f040047;
+        public static final int select_dialog_singlechoice_material=0x7f040048;
+        public static final int setup_layout=0x7f040049;
+        public static final int setup_switch_layout=0x7f04004a;
+        public static final int setup_text_layout=0x7f04004b;
+        public static final int start_layout=0x7f04004c;
+        public static final int support_simple_spinner_dropdown_item=0x7f04004d;
+        public static final int widget_bottom_dialog=0x7f04004e;
+        public static final int widget_dialog_normal=0x7f04004f;
+        public static final int widget_edit_dialog=0x7f040050;
+        public static final int widget_md_dialog=0x7f040051;
+        public static final int widget_md_mid_dialog=0x7f040052;
     }
     public static final class mipmap {
         public static final int qrcode_default_grid_scan_line=0x7f030000;
@@ -3486,8 +3579,7 @@ containing a value of this type.
         public static final int appbar_scrolling_view_behavior=0x7f0d0000;
         public static final int bottom_sheet_behavior=0x7f0d0001;
         public static final int character_counter_pattern=0x7f0d0002;
-        public static final int copyright=0x7f0d002b;
-        public static final int hello_world=0x7f0d002a;
+        public static final int copyright=0x7f0d002a;
         public static final int password_toggle_content_description=0x7f0d0003;
         public static final int path_password_eye=0x7f0d0004;
         public static final int path_password_eye_mask_strike_through=0x7f0d0005;
@@ -9934,6 +10026,201 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           @attr name com.dis.box:popupTheme
         */
         public static final int Spinner_popupTheme = 4;
+        /** Attributes that can be used with a SwitchButtom.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #SwitchButtom_animatable com.dis.box:animatable}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchButtom_divider_width com.dis.box:divider_width}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchButtom_duration com.dis.box:duration}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchButtom_off_background_color com.dis.box:off_background_color}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchButtom_off_divider_color com.dis.box:off_divider_color}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchButtom_off_slider_color com.dis.box:off_slider_color}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchButtom_on_background_color com.dis.box:on_background_color}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchButtom_on_divider_color com.dis.box:on_divider_color}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchButtom_on_slider_color com.dis.box:on_slider_color}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchButtom_speed com.dis.box:speed}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchButtom_value com.dis.box:value}</code></td><td></td></tr>
+           </table>
+           @see #SwitchButtom_animatable
+           @see #SwitchButtom_divider_width
+           @see #SwitchButtom_duration
+           @see #SwitchButtom_off_background_color
+           @see #SwitchButtom_off_divider_color
+           @see #SwitchButtom_off_slider_color
+           @see #SwitchButtom_on_background_color
+           @see #SwitchButtom_on_divider_color
+           @see #SwitchButtom_on_slider_color
+           @see #SwitchButtom_speed
+           @see #SwitchButtom_value
+         */
+        public static final int[] SwitchButtom = {
+            0x7f01016f, 0x7f010170, 0x7f010171, 0x7f010172,
+            0x7f010173, 0x7f010174, 0x7f010175, 0x7f010176,
+            0x7f010177, 0x7f010178, 0x7f010179
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.dis.box.R.attr#animatable}
+          attribute's value can be found in the {@link #SwitchButtom} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.dis.box:animatable
+        */
+        public static final int SwitchButtom_animatable = 8;
+        /**
+          <p>This symbol is the offset where the {@link com.dis.box.R.attr#divider_width}
+          attribute's value can be found in the {@link #SwitchButtom} array.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.dis.box:divider_width
+        */
+        public static final int SwitchButtom_divider_width = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.dis.box.R.attr#duration}
+          attribute's value can be found in the {@link #SwitchButtom} array.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.dis.box:duration
+        */
+        public static final int SwitchButtom_duration = 9;
+        /**
+          <p>This symbol is the offset where the {@link com.dis.box.R.attr#off_background_color}
+          attribute's value can be found in the {@link #SwitchButtom} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.dis.box:off_background_color
+        */
+        public static final int SwitchButtom_off_background_color = 4;
+        /**
+          <p>This symbol is the offset where the {@link com.dis.box.R.attr#off_divider_color}
+          attribute's value can be found in the {@link #SwitchButtom} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.dis.box:off_divider_color
+        */
+        public static final int SwitchButtom_off_divider_color = 3;
+        /**
+          <p>This symbol is the offset where the {@link com.dis.box.R.attr#off_slider_color}
+          attribute's value can be found in the {@link #SwitchButtom} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.dis.box:off_slider_color
+        */
+        public static final int SwitchButtom_off_slider_color = 6;
+        /**
+          <p>This symbol is the offset where the {@link com.dis.box.R.attr#on_background_color}
+          attribute's value can be found in the {@link #SwitchButtom} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.dis.box:on_background_color
+        */
+        public static final int SwitchButtom_on_background_color = 5;
+        /**
+          <p>This symbol is the offset where the {@link com.dis.box.R.attr#on_divider_color}
+          attribute's value can be found in the {@link #SwitchButtom} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.dis.box:on_divider_color
+        */
+        public static final int SwitchButtom_on_divider_color = 2;
+        /**
+          <p>This symbol is the offset where the {@link com.dis.box.R.attr#on_slider_color}
+          attribute's value can be found in the {@link #SwitchButtom} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.dis.box:on_slider_color
+        */
+        public static final int SwitchButtom_on_slider_color = 7;
+        /**
+          <p>This symbol is the offset where the {@link com.dis.box.R.attr#speed}
+          attribute's value can be found in the {@link #SwitchButtom} array.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.dis.box:speed
+        */
+        public static final int SwitchButtom_speed = 10;
+        /**
+          <p>This symbol is the offset where the {@link com.dis.box.R.attr#value}
+          attribute's value can be found in the {@link #SwitchButtom} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.dis.box:value
+        */
+        public static final int SwitchButtom_value = 0;
         /** Attributes that can be used with a SwitchCompat.
            <p>Includes the following attributes:</p>
            <table>

@@ -136,9 +136,6 @@ public class PersonalActivity extends BasePageActivity
 		mCollapsingToolbarLayout.setExpandedTitleGravity(Gravity.CENTER_HORIZONTAL|Gravity.BOTTOM);
 		mCollapsingToolbarLayout.setExpandedTitleMarginBottom(30);
 		mCollapsingToolbarLayout.setExpandedTitleTextAppearance(R.style.CollapsingToolbarLayoutTitleTextAppearance);
-		mToolbar.setTitle("");
-		setSupportActionBar(mToolbar);
-		getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 		
 		BarUtils.setStatusBarAlpha(this, 160);
 	}
